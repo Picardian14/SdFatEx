@@ -58,7 +58,7 @@
  *  * (asterisk)
  *
  */
-#define USE_LONG_FILE_NAMES 1
+#define USE_LONG_FILE_NAMES 0
 //------------------------------------------------------------------------------
 /**
  * If the symbol ENABLE_EXTENDED_TRANSFER_CLASS is nonzero, the class SdFatEX
@@ -68,7 +68,7 @@
  * These classes used extended multi-block SD I/O for better performance.
  * the SPI bus may not be shared with other devices in this mode.
  */
-#define ENABLE_EXTENDED_TRANSFER_CLASS 0
+#define ENABLE_EXTENDED_TRANSFER_CLASS 1
 //------------------------------------------------------------------------------
 /**
  * If the symbol USE_STANDARD_SPI_LIBRARY is zero, an optimized custom SPI
